@@ -4,7 +4,7 @@ require("user.keybindings")
 
 lvim.colorscheme = "catppuccin"
 
--- Code formatters setup
+-- Code formatters setup:
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
   { name = "prettier" }
