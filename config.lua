@@ -4,9 +4,9 @@ require("user.keybindings")
 
 -- COLORSCHEMES:
 -- lvim.colorscheme = "catppuccin"
--- lvim.colorscheme = "vscode"
+lvim.colorscheme = "vscode"
 -- lvim.colorscheme = "hybrid"
-lvim.colorscheme = "gruvbox"
+-- lvim.colorscheme = "gruvbox"
 
 
 -- CODE FORMATTERS SETUP:
