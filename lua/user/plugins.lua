@@ -17,20 +17,8 @@ lvim.plugins = {
   },
 
   -- Colorschemes:
-  {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    priority = 1000
-  },
-  {
-    "Mofiqul/vscode.nvim",
-    -- lazy = false,
-    priority = 1000,
-  },
-  {
-    "HoNamDuong/hybrid.nvim",
-    -- lazy = false,
-    priority = 1000,
-    opts = {},
-  }
+  {"catppuccin/nvim", name = "catppuccin", priority = 1000},
+  {"Mofiqul/vscode.nvim", priority = 1000},
+  {"HoNamDuong/hybrid.nvim", priority = 1000},
+  {"ellisonleao/gruvbox.nvim", priority = 1000},
 }
